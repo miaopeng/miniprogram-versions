@@ -1,0 +1,31 @@
+{
+  "name": "miniprogram-versions",
+  "version": "1.0.0",
+  "description": "Wechat Miniprogram Base Lib Versions",
+  "main": "index.js",
+  "scripts": {
+    "update": "curl https://mp.weixin.qq.com/debug/getpublibpercentage --output libversions.json",
+    "test": "jest"
+  },
+  "keywords": [
+    "miniprogram",
+    "version",
+    "wechat",
+    "mina",
+    "weapp",
+    "minapp",
+    "baselib"
+  ],
+  "author": "Peng Miao",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "jest": "^25.1.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
