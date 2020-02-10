@@ -13,10 +13,21 @@
     "wechat",
     "mina",
     "weapp",
-    "minapp",
-    "baselib"
+    "minapp"
+  ],
+  "files": [
+    "index.js",
+    "libversions.json"
   ],
   "author": "Peng Miao",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miaopeng/miniprogram-versions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/miaopeng/miniprogram-verstioins/issues"
+  },
+  "homepage": "https://github.com/miaopeng/miniprogram-versions#readme",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^6.8.0",
