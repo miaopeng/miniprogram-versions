@@ -1,10 +1,14 @@
 const libversions = require('./libversions.json');
 
 const data = JSON.parse(libversions.json_data);
-const versions = data.total;
-const latest = versions[0].sdkVer;
+const { total, android, iOS } = data;
+const latest = total[0].sdkVer;
+android.latest = android[0].sdkVer;
+iOS.latest = iOS[0].sdkVer;
 
 module.exports = {
   latest,
-  versions
+  versions: total,
+  android,
+  iOS
 };
