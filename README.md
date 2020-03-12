@@ -3,19 +3,22 @@
 ## Useage
 
 ```
-const { latest, versions, android, iOS } = require('miniprogram-versions');
+const { latest, mostPopular, versions, android, iOS } = require('miniprogram-versions');
 
 console.log('The latest version of miniprogram sdk is:', latest);
+// 2.10.3
+
+console.log('The most popular version of miniprogram sdk is:', mostPopular);
 // 2.10.2
 
 console.log('all versions:', versions);
 /*
   [
-    { percentage: 10.53967089, sdkVer: '2.10.2' },
-    { percentage: 79.2536878236, sdkVer: '2.10.1' },
-    { percentage: 0.000947846748524, sdkVer: '2.10.0' },
-    { percentage: 3.11367845685, sdkVer: '2.9.5' },
-    { percentage: 0.00114645939257, sdkVer: '2.9.4' },
+    { percentage: 12.7901006201, sdkVer: '2.10.3' },
+    { percentage: 77.8855561356, sdkVer: '2.10.2' },
+    { percentage: 0.683329196418, sdkVer: '2.10.1' },
+    { percentage: 0.000528376120724, sdkVer: '2.10.0' },
+    { percentage: 2.58261518692, sdkVer: '2.9.5' },
     ...
   ]
  */
@@ -34,4 +37,4 @@ yarn update
 
 ## 更新时间
 
-更新时间：2020 年 3 月 10 日
+更新时间：2020 年 3 月 12 日
