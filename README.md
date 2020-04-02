@@ -6,22 +6,25 @@
 const { latest, mostPopular, versions, android, iOS } = require('miniprogram-versions');
 
 console.log('The latest version of miniprogram sdk is:', latest);
-// 2.10.3
+// 2.10.4
 
 console.log('The most popular version of miniprogram sdk is:', mostPopular);
-// 2.10.2
+// 2.10.3
 
 console.log('all versions:', versions);
 /*
-  [
-    { percentage: 12.7901006201, sdkVer: '2.10.3' },
-    { percentage: 77.8855561356, sdkVer: '2.10.2' },
-    { percentage: 0.683329196418, sdkVer: '2.10.1' },
-    { percentage: 0.000528376120724, sdkVer: '2.10.0' },
-    { percentage: 2.58261518692, sdkVer: '2.9.5' },
-    ...
-  ]
- */
+[
+  { percentage: 30.683777017, sdkVer: '2.10.4' },
+  { percentage: 62.4125745814, sdkVer: '2.10.3' },
+  { percentage: 0.00342223308415, sdkVer: '2.10.2' },
+  { percentage: 0.705478818889, sdkVer: '2.10.1' },
+  { percentage: 0.000233319938702, sdkVer: '2.10.0' },
+  { percentage: 1.81532428138, sdkVer: '2.9.5' },
+  { percentage: 0.000389518130719, sdkVer: '2.9.4' },
+  { percentage: 0.342777732031, sdkVer: '2.9.3' },
+  ...
+]
+*/
 
  console.log('android versions', android);
  console.log('android latest version', android.latest);
@@ -37,4 +40,4 @@ yarn update
 
 ## 更新时间
 
-更新时间：2020 年 3 月 27 日
+更新时间：2020 年 4 月 1 日
