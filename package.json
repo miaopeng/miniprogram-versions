@@ -4,7 +4,7 @@
   "description": "Wechat Miniprogram Base Lib Versions",
   "main": "index.js",
   "scripts": {
-    "update": "curl https://mp.weixin.qq.com/debug/getpublibpercentage --output libversions.json",
+    "update": "curl https://mp.weixin.qq.com/debug/getpublibpercentage --output libversions.json && node ./scripts/format.js",
     "release:major": "npm version major && npm publish && git push --follow-tags",
     "release:minor": "npm version minor && npm publish && git push --follow-tags",
     "release:patch": "npm version patch && npm publish && git push --follow-tags",
@@ -38,7 +38,8 @@
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-import": "^2.20.1",
-    "jest": "^25.1.0"
+    "jest": "^25.1.0",
+    "prettier": "^2.0.4"
   },
   "jest": {
     "testEnvironment": "node"

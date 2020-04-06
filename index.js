@@ -1,7 +1,5 @@
-const libversions = require('./libversions.json');
+const { total, android, iOS } = require('./libversions.formatted.json');
 
-const data = JSON.parse(libversions.json_data);
-const { total, android, iOS } = data;
 const latest = total[0].sdkVer;
 const sortedByPercent = [...total].sort((a, b) => b.percentage - a.percentage);
 const mostPopular = sortedByPercent[0].sdkVer;

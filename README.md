@@ -7,13 +7,14 @@ Get latest or most popular version:
 ```
 const { latest, mostPopular } = require('miniprogram-versions');
 
-console.log('The latest version of miniprogram sdk is:', latest);
+console.log('The latest version:', latest);
 // 2.10.4
 
-console.log('The most popular version of miniprogram sdk is:', mostPopular);
+console.log('The most popular version:', mostPopular);
 // 2.10.4
 
 ```
+
 Get all versions sorted by version or persentage.
 
 ```
