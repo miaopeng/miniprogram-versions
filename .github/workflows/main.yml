@@ -1,0 +1,19 @@
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+
+jobs:
+  updater:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Now
+        run: date
+
+      - name: Checkout
+        uses: actions/checkout@master
+        with:
+          ref: 'master'
+
+      - name: Update
+        run: npm run update && npm run check
