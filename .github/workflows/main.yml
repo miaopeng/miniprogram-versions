@@ -16,4 +16,7 @@ jobs:
           ref: 'master'
 
       - name: Update
-        run: npm run update && npm run check
+        run: |
+          npm ci
+          npm run update
+          npm run check
