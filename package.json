@@ -9,6 +9,7 @@
     "release:minor": "npm version minor && npm publish && git push --follow-tags",
     "release:patch": "npm version patch && npm publish && git push --follow-tags",
     "check": "./scripts/check.sh",
+    "readme": "node ./scripts/readme.js",
     "test": "jest"
   },
   "keywords": [
