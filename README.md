@@ -24,11 +24,11 @@ const { versions, sortedByPercent } = require('miniprogram-versions');
 console.log('all versions:', versions);
 /*
 [
-  { "percentage": 92.4263288015, "sdkVer": "2.10.4" },
-  { "percentage": 0.210412677457, "sdkVer": "2.10.3" },
-  { "percentage": 0.00272181514738, "sdkVer": "2.10.2" },
-  { "percentage": 0.108063075593, "sdkVer": "2.10.1" },
-  { "percentage": 0.00022693844857, "sdkVer": "2.10.0" }
+  { "percentage": 92.79786715, "sdkVer": "2.10.4" },
+  { "percentage": 0.207459391172, "sdkVer": "2.10.3" },
+  { "percentage": 0.0021144785381, "sdkVer": "2.10.2" },
+  { "percentage": 0.0759869926711, "sdkVer": "2.10.1" },
+  { "percentage": 0.000213196288984, "sdkVer": "2.10.0" }
   ...
 ]
 */
@@ -36,11 +36,11 @@ console.log('all versions:', versions);
 console.log('sorted versions by persentage:', sortedByPercent);
 /*
 [
-  { "percentage": 92.4263288015, "sdkVer": "2.10.4" },
-  { "percentage": 2.19408370525, "sdkVer": "2.9.5" },
-  { "percentage": 1.84410207412, "sdkVer": "2.8.3" },
-  { "percentage": 1.05559039403, "sdkVer": "2.6.6" },
-  { "percentage": 0.953009876569, "sdkVer": "2.7.7" }
+  { "percentage": 92.79786715, "sdkVer": "2.10.4" },
+  { "percentage": 2.10873160088, "sdkVer": "2.9.5" },
+  { "percentage": 1.75892849251, "sdkVer": "2.8.3" },
+  { "percentage": 1.01053551988, "sdkVer": "2.6.6" },
+  { "percentage": 0.911278998288, "sdkVer": "2.7.7" }
   ...
 ]
 */
