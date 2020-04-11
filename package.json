@@ -1,6 +1,6 @@
 {
   "name": "miniprogram-versions",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "description": "Wechat Miniprogram Base Lib Versions",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,8 @@
   ],
   "files": [
     "index.js",
-    "libversions.json"
+    "libversions.json",
+    "libversions.formatted.json"
   ],
   "author": "Peng Miao",
   "repository": {
