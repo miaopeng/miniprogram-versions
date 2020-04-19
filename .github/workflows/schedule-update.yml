@@ -1,26 +1,38 @@
 name: schedule-update
 on:
   schedule:
-    - cron: "0 */2 * * *"
+    # - cron: '0 */2 * * *'
+    - cron: '*/10 * * * *'
 
 jobs:
   updater:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Now
+      - name: now
         run: date
 
-      - name: Checkout
+      - name: checkout
         uses: actions/checkout@master
         with:
-          ref: "master"
-          # Need for triggering workflow other 
+          ref: 'master'
+          # Need for triggering workflow other
           token: ${{ secrets.PAT }}
+        run: git fetch --no-tags --prune --depth=1 origin +refs/heads/*:refs/remotes/origin/*
 
-      - name: Update
+      - name: check
         run: |
-          git fetch --no-tags --prune --depth=1 origin +refs/heads/*:refs/remotes/origin/*
           npm ci
           npm run update
-          npm run check
+          if [ -z "$(git status --porcelain)" ]; then 
+            echo "clean"
+            echo "::set-output name=update::false"
+          else 
+            echo "new update"
+            echo "::set-output name=update::true"
+          fi
+
+      - name: update
+        if: steps.check.outputs.update == true
+        run: |
+          sh ./scripts/update.sh
