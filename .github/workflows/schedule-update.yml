@@ -18,10 +18,10 @@ jobs:
           ref: 'master'
           # Need for triggering workflow other
           token: ${{ secrets.PAT }}
-        run: git fetch --no-tags --prune --depth=1 origin +refs/heads/*:refs/remotes/origin/*
 
       - name: check
         run: |
+          git fetch --no-tags --prune --depth=1 origin +refs/heads/*:refs/remotes/origin/*
           npm ci
           npm run update
           if [ -z "$(git status --porcelain)" ]; then 
