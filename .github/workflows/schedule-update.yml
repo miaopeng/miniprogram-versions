@@ -1,8 +1,7 @@
 name: schedule-update
 on:
   schedule:
-    # - cron: '0 */2 * * *'
-    - cron: '*/10 * * * *'
+    - cron: '0 */2 * * *'
 
 jobs:
   updater:
@@ -10,7 +9,9 @@ jobs:
 
     steps:
       - name: now
-        run: date
+        run: | 
+          date
+          TZ=Asia/Shanghai date
 
       - name: checkout
         uses: actions/checkout@master
