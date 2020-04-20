@@ -23,7 +23,7 @@ jobs:
       - name: check
         id: check
         run: |
-          git fetch --no-tags --prune --depth=1 origin +refs/heads/*:refs/remotes/origin/*
+          git pull
           npm ci
           npm run update
           unset HAS_CHANGES
