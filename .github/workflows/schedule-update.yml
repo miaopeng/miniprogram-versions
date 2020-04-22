@@ -1,7 +1,7 @@
 name: schedule-update
 on:
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: '10 3,10 * * *'
 
 jobs:
   updater:
