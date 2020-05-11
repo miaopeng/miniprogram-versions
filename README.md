@@ -24,11 +24,11 @@ const { versions, sortedByPercent } = require('miniprogram-versions');
 console.log('all versions:', versions);
 /*
 [
-  { "percentage": 80.081935744, "sdkVer": "2.11.0" },
-  { "percentage": 14.1193410817, "sdkVer": "2.10.4" },
-  { "percentage": 0.166533002973, "sdkVer": "2.10.3" },
-  { "percentage": 0.000445666423852, "sdkVer": "2.10.2" },
-  { "percentage": 0.0178738346168, "sdkVer": "2.10.1" }
+  { "percentage": 79.9880638833, "sdkVer": "2.11.0" },
+  { "percentage": 14.1090366464, "sdkVer": "2.10.4" },
+  { "percentage": 0.155496653817, "sdkVer": "2.10.3" },
+  { "percentage": 0.000479946526073, "sdkVer": "2.10.2" },
+  { "percentage": 0.0161481274606, "sdkVer": "2.10.1" }
   ...
 ]
 */
@@ -36,11 +36,11 @@ console.log('all versions:', versions);
 console.log('sorted versions by persentage:', sortedByPercent);
 /*
 [
-  { "percentage": 80.081935744, "sdkVer": "2.11.0" },
-  { "percentage": 14.1193410817, "sdkVer": "2.10.4" },
-  { "percentage": 1.67065146837, "sdkVer": "2.9.5" },
-  { "percentage": 1.43540593666, "sdkVer": "2.8.3" },
-  { "percentage": 0.806571509089, "sdkVer": "2.6.6" }
+  { "percentage": 79.9880638833, "sdkVer": "2.11.0" },
+  { "percentage": 14.1090366464, "sdkVer": "2.10.4" },
+  { "percentage": 1.68597535465, "sdkVer": "2.9.5" },
+  { "percentage": 1.4675173276, "sdkVer": "2.8.3" },
+  { "percentage": 0.82835430654, "sdkVer": "2.6.6" }
   ...
 ]
 */
@@ -64,4 +64,4 @@ yarn update
 
 ## 更新时间
 
-更新时间：2020 年 5 月 10 日
+更新时间：2020 年 5 月 11 日
