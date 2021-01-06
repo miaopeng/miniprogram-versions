@@ -9,7 +9,7 @@ Get latest or most popular version:
 const { latest, mostPopular } = require('miniprogram-versions');
 
 console.log('The latest version:', latest);
-// 2.14.1
+// 2.14.3
 
 console.log('The most popular version:', mostPopular);
 // 2.14.1
@@ -24,11 +24,11 @@ const { versions, sortedByPercent } = require('miniprogram-versions');
 console.log('all versions:', versions);
 /*
 [
-  { "percentage": 89.27, "sdkVer": "2.14.1" },
+  { "percentage": 0.06, "sdkVer": "2.14.3" },
+  { "percentage": 88.6, "sdkVer": "2.14.1" },
   { "percentage": 0, "sdkVer": "2.14.0" },
   { "percentage": 1.84, "sdkVer": "2.13.2" },
-  { "percentage": 0, "sdkVer": "2.13.1" },
-  { "percentage": 0.11, "sdkVer": "2.13.0" }
+  { "percentage": 0, "sdkVer": "2.13.1" }
   ...
 ]
 */
@@ -36,7 +36,7 @@ console.log('all versions:', versions);
 console.log('sorted versions by persentage:', sortedByPercent);
 /*
 [
-  { "percentage": 89.27, "sdkVer": "2.14.1" },
+  { "percentage": 88.6, "sdkVer": "2.14.1" },
   { "percentage": 4.31, "sdkVer": "2.12.2" },
   { "percentage": 1.88, "sdkVer": "2.10.4" },
   { "percentage": 1.84, "sdkVer": "2.13.2" },
@@ -64,4 +64,4 @@ yarn update
 
 ## 更新时间
 
-更新时间：2021 年 1 月 5 日
+更新时间：2021 年 1 月 6 日
