@@ -24,7 +24,7 @@ const { versions, sortedByPercent } = require('miniprogram-versions');
 console.log('all versions:', versions);
 /*
 [
-  { "percentage": 88.09, "sdkVer": "2.15.0" },
+  { "percentage": 88.08, "sdkVer": "2.15.0" },
   { "percentage": 0.01, "sdkVer": "2.14.4" },
   { "percentage": 0, "sdkVer": "2.14.3" },
   { "percentage": 5.42, "sdkVer": "2.14.1" },
@@ -36,7 +36,7 @@ console.log('all versions:', versions);
 console.log('sorted versions by persentage:', sortedByPercent);
 /*
 [
-  { "percentage": 88.09, "sdkVer": "2.15.0" },
+  { "percentage": 88.08, "sdkVer": "2.15.0" },
   { "percentage": 5.42, "sdkVer": "2.14.1" },
   { "percentage": 2.47, "sdkVer": "2.12.2" },
   { "percentage": 1.23, "sdkVer": "2.10.4" },
@@ -64,4 +64,4 @@ yarn update
 
 ## 更新时间
 
-更新时间：2021 年 2 月 22 日
+更新时间：2021 年 2 月 23 日
