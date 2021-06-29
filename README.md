@@ -9,10 +9,10 @@ Get latest or most popular version:
 const { latest, mostPopular } = require('miniprogram-versions');
 
 console.log('The latest version:', latest);
-// 2.17.3
+// 2.18.0
 
 console.log('The most popular version:', mostPopular);
-// 2.17.0
+// 2.18.0
 
 ```
 
@@ -24,11 +24,11 @@ const { versions, sortedByPercent } = require('miniprogram-versions');
 console.log('all versions:', versions);
 /*
 [
-  { "percentage": 2.46, "sdkVer": "2.17.3" },
+  { "percentage": 73.89, "sdkVer": "2.18.0" },
+  { "percentage": 0.17, "sdkVer": "2.17.3" },
   { "percentage": 0, "sdkVer": "2.17.1" },
-  { "percentage": 51, "sdkVer": "2.17.0" },
-  { "percentage": 20.77, "sdkVer": "2.16.1" },
-  { "percentage": 0.17, "sdkVer": "2.16.0" }
+  { "percentage": 13.55, "sdkVer": "2.17.0" },
+  { "percentage": 5.5, "sdkVer": "2.16.1" }
   ...
 ]
 */
@@ -36,11 +36,11 @@ console.log('all versions:', versions);
 console.log('sorted versions by persentage:', sortedByPercent);
 /*
 [
-  { "percentage": 51, "sdkVer": "2.17.0" },
-  { "percentage": 20.77, "sdkVer": "2.16.1" },
-  { "percentage": 7.66, "sdkVer": "2.14.1" },
-  { "percentage": 6.38, "sdkVer": "2.15.0" },
-  { "percentage": 4.34, "sdkVer": "2.12.3" }
+  { "percentage": 73.89, "sdkVer": "2.18.0" },
+  { "percentage": 13.55, "sdkVer": "2.17.0" },
+  { "percentage": 5.5, "sdkVer": "2.16.1" },
+  { "percentage": 2.03, "sdkVer": "2.14.1" },
+  { "percentage": 1.71, "sdkVer": "2.15.0" }
   ...
 ]
 */
