@@ -12,7 +12,7 @@ console.log('The latest version:', latest);
 // 2.22.0
 
 console.log('The most popular version:', mostPopular);
-// 2.21.4
+// 2.22.0
 
 ```
 
@@ -24,9 +24,9 @@ const { versions, sortedByPercent } = require('miniprogram-versions');
 console.log('all versions:', versions);
 /*
 [
-  { "percentage": 37.35, "sdkVer": "2.22.0" },
-  { "percentage": 47.4, "sdkVer": "2.21.4" },
-  { "percentage": 0.07, "sdkVer": "2.21.3" },
+  { "percentage": 65.36, "sdkVer": "2.22.0" },
+  { "percentage": 17.21, "sdkVer": "2.21.4" },
+  { "percentage": 0.06, "sdkVer": "2.21.3" },
   { "percentage": 0.01, "sdkVer": "2.21.2" },
   { "percentage": 0, "sdkVer": "2.21.1" }
   ...
@@ -36,11 +36,11 @@ console.log('all versions:', versions);
 console.log('sorted versions by persentage:', sortedByPercent);
 /*
 [
-  { "percentage": 47.4, "sdkVer": "2.21.4" },
-  { "percentage": 37.35, "sdkVer": "2.22.0" },
-  { "percentage": 6.59, "sdkVer": "2.19.6" },
-  { "percentage": 2.16, "sdkVer": "2.20.2" },
-  { "percentage": 1.17, "sdkVer": "2.20.3" }
+  { "percentage": 65.36, "sdkVer": "2.22.0" },
+  { "percentage": 17.21, "sdkVer": "2.21.4" },
+  { "percentage": 7.84, "sdkVer": "2.19.6" },
+  { "percentage": 2.87, "sdkVer": "2.20.3" },
+  { "percentage": 1.36, "sdkVer": "2.19.2" }
   ...
 ]
 */
@@ -64,4 +64,4 @@ yarn update
 
 ## 更新时间
 
-更新时间：2022 年 1 月 28 日
+更新时间：2022 年 1 月 29 日
