@@ -24,10 +24,10 @@ const { versions, sortedByPercent } = require('miniprogram-versions');
 console.log('all versions:', versions);
 /*
 [
-  { "percentage": 63.31, "sdkVer": "2.26.0" },
-  { "percentage": 22.96, "sdkVer": "2.25.4" },
+  { "percentage": 73.1, "sdkVer": "2.26.0" },
+  { "percentage": 12.33, "sdkVer": "2.25.4" },
   { "percentage": 0.01, "sdkVer": "2.25.3" },
-  { "percentage": 0.23, "sdkVer": "2.25.2" },
+  { "percentage": 0.27, "sdkVer": "2.25.2" },
   { "percentage": 0, "sdkVer": "2.25.1" }
   ...
 ]
@@ -36,11 +36,11 @@ console.log('all versions:', versions);
 console.log('sorted versions by persentage:', sortedByPercent);
 /*
 [
-  { "percentage": 63.31, "sdkVer": "2.26.0" },
-  { "percentage": 22.96, "sdkVer": "2.25.4" },
-  { "percentage": 3.76, "sdkVer": "2.24.7" },
-  { "percentage": 2.37, "sdkVer": "2.24.4" },
-  { "percentage": 2.34, "sdkVer": "2.23.4" }
+  { "percentage": 73.1, "sdkVer": "2.26.0" },
+  { "percentage": 12.33, "sdkVer": "2.25.4" },
+  { "percentage": 3.96, "sdkVer": "2.24.7" },
+  { "percentage": 2.5, "sdkVer": "2.24.4" },
+  { "percentage": 2.49, "sdkVer": "2.23.4" }
   ...
 ]
 */
@@ -64,4 +64,4 @@ yarn update
 
 ## 更新时间
 
-更新时间：2022 年 9 月 7 日
+更新时间：2022 年 9 月 8 日
