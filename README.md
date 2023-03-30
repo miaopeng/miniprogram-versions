@@ -9,7 +9,7 @@ Get latest or most popular version:
 const { latest, mostPopular } = require('miniprogram-versions');
 
 console.log('The latest version:', latest);
-// 2.30.3
+// 2.30.4
 
 console.log('The most popular version:', mostPopular);
 // 2.30.3
@@ -23,13 +23,25 @@ const { versions, sortedByPercent } = require('miniprogram-versions');
 
 console.log('all versions:', versions);
 /*
-[{ "percentage": 100, "sdkVer": "2.30.3" }  ...
+[
+  { "percentage": 0.61, "sdkVer": "2.30.4" },
+  { "percentage": 86.93, "sdkVer": "2.30.3" },
+  { "percentage": 0.16, "sdkVer": "2.30.2" },
+  { "percentage": 0, "sdkVer": "2.30.1" },
+  { "percentage": 0.09, "sdkVer": "2.30.0" }
+  ...
 ]
 */
 
 console.log('sorted versions by persentage:', sortedByPercent);
 /*
-[{ "percentage": 100, "sdkVer": "2.30.3" }  ...
+[
+  { "percentage": 86.93, "sdkVer": "2.30.3" },
+  { "percentage": 2.13, "sdkVer": "2.27.3" },
+  { "percentage": 1.74, "sdkVer": "2.29.2" },
+  { "percentage": 1.57, "sdkVer": "2.25.4" },
+  { "percentage": 1.26, "sdkVer": "2.28.1" }
+  ...
 ]
 */
 ```
