@@ -25,9 +25,9 @@ console.log('all versions:', versions);
 /*
 [
   { "percentage": 0.76, "sdkVer": "3.0.0" },
-  { "percentage": 83.56, "sdkVer": "2.33.0" },
-  { "percentage": 3.09, "sdkVer": "2.32.3" },
-  { "percentage": 0.02, "sdkVer": "2.32.2" },
+  { "percentage": 83.86, "sdkVer": "2.33.0" },
+  { "percentage": 3.03, "sdkVer": "2.32.3" },
+  { "percentage": 0.01, "sdkVer": "2.32.2" },
   { "percentage": 0.1, "sdkVer": "2.32.1" }
   ...
 ]
@@ -36,11 +36,11 @@ console.log('all versions:', versions);
 console.log('sorted versions by persentage:', sortedByPercent);
 /*
 [
-  { "percentage": 83.56, "sdkVer": "2.33.0" },
-  { "percentage": 3.23, "sdkVer": "2.30.4" },
-  { "percentage": 3.09, "sdkVer": "2.32.3" },
-  { "percentage": 1.5, "sdkVer": "2.31.1" },
-  { "percentage": 1.5, "sdkVer": "2.27.3" }
+  { "percentage": 83.86, "sdkVer": "2.33.0" },
+  { "percentage": 3.2, "sdkVer": "2.30.4" },
+  { "percentage": 3.03, "sdkVer": "2.32.3" },
+  { "percentage": 1.47, "sdkVer": "2.31.1" },
+  { "percentage": 1.46, "sdkVer": "2.27.3" }
   ...
 ]
 */
@@ -64,4 +64,4 @@ yarn update
 
 ## 更新时间
 
-更新时间：2023 年 7 月 22 日
+更新时间：2023 年 7 月 23 日
