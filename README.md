@@ -25,10 +25,10 @@ console.log('all versions:', versions);
 /*
 [
   { "percentage": 0, "sdkVer": "3.4.7" },
-  { "percentage": 86.14, "sdkVer": "3.4.6" },
-  { "percentage": 0.03, "sdkVer": "3.4.5" },
-  { "percentage": 0.01, "sdkVer": "3.4.4" },
-  { "percentage": 0.01, "sdkVer": "3.4.3" }
+  { "percentage": 86.82, "sdkVer": "3.4.6" },
+  { "percentage": 0.02, "sdkVer": "3.4.5" },
+  { "percentage": 0, "sdkVer": "3.4.4" },
+  { "percentage": 0, "sdkVer": "3.4.3" }
   ...
 ]
 */
@@ -36,11 +36,11 @@ console.log('all versions:', versions);
 console.log('sorted versions by persentage:', sortedByPercent);
 /*
 [
-  { "percentage": 86.14, "sdkVer": "3.4.6" },
-  { "percentage": 6.29, "sdkVer": "3.3.5" },
-  { "percentage": 1.46, "sdkVer": "3.1.5" },
-  { "percentage": 1.12, "sdkVer": "3.2.5" },
-  { "percentage": 1.06, "sdkVer": "2.27.3" }
+  { "percentage": 86.82, "sdkVer": "3.4.6" },
+  { "percentage": 5.98, "sdkVer": "3.3.5" },
+  { "percentage": 1.4, "sdkVer": "3.1.5" },
+  { "percentage": 1.07, "sdkVer": "3.2.5" },
+  { "percentage": 1, "sdkVer": "2.27.3" }
   ...
 ]
 */
@@ -64,4 +64,4 @@ yarn update
 
 ## 更新时间
 
-更新时间：2024 年 6 月 13 日
+更新时间：2024 年 6 月 14 日
