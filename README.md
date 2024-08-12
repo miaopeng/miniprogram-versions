@@ -24,11 +24,11 @@ const { versions, sortedByPercent } = require('miniprogram-versions');
 console.log('all versions:', versions);
 /*
 [
-  { "percentage": 82.91, "sdkVer": "3.5.3" },
-  { "percentage": 0.67, "sdkVer": "3.5.2" },
+  { "percentage": 83.33, "sdkVer": "3.5.3" },
+  { "percentage": 0.24, "sdkVer": "3.5.2" },
   { "percentage": 0.02, "sdkVer": "3.5.1" },
   { "percentage": 0, "sdkVer": "3.5.0" },
-  { "percentage": 6.9, "sdkVer": "3.4.10" }
+  { "percentage": 6.83, "sdkVer": "3.4.10" }
   ...
 ]
 */
@@ -36,11 +36,11 @@ console.log('all versions:', versions);
 console.log('sorted versions by persentage:', sortedByPercent);
 /*
 [
-  { "percentage": 82.91, "sdkVer": "3.5.3" },
-  { "percentage": 6.9, "sdkVer": "3.4.10" },
-  { "percentage": 3.68, "sdkVer": "3.3.5" },
+  { "percentage": 83.33, "sdkVer": "3.5.3" },
+  { "percentage": 6.83, "sdkVer": "3.4.10" },
+  { "percentage": 3.7, "sdkVer": "3.3.5" },
   { "percentage": 1.13, "sdkVer": "3.1.5" },
-  { "percentage": 0.82, "sdkVer": "2.27.3" }
+  { "percentage": 0.83, "sdkVer": "2.27.3" }
   ...
 ]
 */
@@ -64,4 +64,4 @@ yarn update
 
 ## 更新时间
 
-更新时间：2024 年 8 月 11 日
+更新时间：2024 年 8 月 12 日
