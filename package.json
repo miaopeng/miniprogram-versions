@@ -1,6 +1,6 @@
 {
   "name": "miniprogram-versions",
-  "version": "1.2.2037",
+  "version": "1.2.2038",
   "description": "Wechat Miniprogram Base Lib Versions",
   "main": "index.js",
   "scripts": {
