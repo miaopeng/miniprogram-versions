@@ -25,8 +25,8 @@ console.log('all versions:', versions);
 /*
 [
   { "percentage": 0.19, "sdkVer": "3.8.6" },
-  { "percentage": 52.17, "sdkVer": "3.8.5" },
-  { "percentage": 0.19, "sdkVer": "3.8.4" },
+  { "percentage": 52.77, "sdkVer": "3.8.5" },
+  { "percentage": 0.09, "sdkVer": "3.8.4" },
   { "percentage": 0.01, "sdkVer": "3.8.3" },
   { "percentage": 0, "sdkVer": "3.8.2" }
   ...
@@ -36,11 +36,11 @@ console.log('all versions:', versions);
 console.log('sorted versions by persentage:', sortedByPercent);
 /*
 [
-  { "percentage": 52.17, "sdkVer": "3.8.5" },
-  { "percentage": 18.78, "sdkVer": "3.7.12" },
-  { "percentage": 8.68, "sdkVer": "3.6.6" },
-  { "percentage": 4.08, "sdkVer": "3.5.8" },
-  { "percentage": 3.4, "sdkVer": "3.3.5" }
+  { "percentage": 52.77, "sdkVer": "3.8.5" },
+  { "percentage": 18.57, "sdkVer": "3.7.12" },
+  { "percentage": 8.57, "sdkVer": "3.6.6" },
+  { "percentage": 4.04, "sdkVer": "3.5.8" },
+  { "percentage": 3.37, "sdkVer": "3.3.5" }
   ...
 ]
 */
@@ -64,4 +64,4 @@ yarn update
 
 ## 更新时间
 
-更新时间：2025 年 5 月 25 日
+更新时间：2025 年 5 月 26 日
